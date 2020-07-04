@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css_selector</title>
+    <style>
+        span#myspan {
+            color : red;
+        }
+        span {
+            color : red;
+        }
+        #jisu > p:nth-child(2){
+            color : red;
+        }
+    </style>
+</head>
+<body>
+<div id="jisu">
+    <h2>단락 선택</h2>
+    <p>첫번째</p>
+    <p>두번째</p>
+    <p>세번째</p>
+    <p>네번째</p>
+</div>
+
+<div>
+    <span id="myspan">my text is upper!</span>
+    <ul>
+        <li>
+            <span id="myspan">my text is dummy</span>
+            <div>
+                <p>
+                    adfjsdfhdsakfhdew;idksjdskvnsdklvnqv;lq2odjv9idvn3licvndskld
+                </p>
+            </div>
+        </li>
+        <li></li>
+    </ul>
+</div>
+</body>
+</html>
