@@ -1,0 +1,30 @@
+.wrap{
+    width: 300px;
+    height: 400px;
+    border: 1px solid gray;
+    padding: 1rem;
+}
+
+.wrap h3{
+    text-align: center;
+    color: #5d1;
+}
+
+.content{
+    width: 200px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 0px auto;
+}
+
+.content li{
+    list-style: none;
+}
+
+.content li a{
+    color: #5d1;
+}
+
+footer li{
+    color: red;
+}
