@@ -22,5 +22,23 @@
 #a, b, c, d = map(int, input().split())
 #print(a >= 90 and b > 80 and c > 85 and d >= 80)
 
-a = int(input())
-print(tuple(range(-10, 10, a)))
+#a = int(input())
+#print(tuple(range(-10, 10, a)))
+
+#a = input().split()
+#b = map(float, input().split())
+#c = dict(zip(a, b))
+#print(c)
+
+age = int(input())
+balance = 9000
+
+if age < 7:
+    print("7세 이상 이용")
+elif 7 <= age <= 12:
+    balance -= 650
+elif 13 <= age <= 18:
+    balance -= 1050
+else:
+    balance -= 1250
+print(balance)
