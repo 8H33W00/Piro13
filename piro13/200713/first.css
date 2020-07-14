@@ -1,0 +1,15 @@
+.topbar{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: start;
+}
+.Young h2{
+
+}
+.paris_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.list_box{
+    display: grid;
+}
